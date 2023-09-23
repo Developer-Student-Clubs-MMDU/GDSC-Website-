@@ -3,13 +3,13 @@ import { getFirestore } from "firebase/firestore";
 import { getStorage } from "firebase/storage";
 
 const firebaseConfig = {
-  apiKey: "Enter Your Firebase Api Key",
-  authDomain: "Enter Your AuthDomain",
-  projectId: "Enter Your ProjectId",
-  storageBucket: "Enter Your storageBucket",
-  messagingSenderId: "Enter messagingSenderId",
-  appId: "Enter Your appId",
-  measurementId: "Enter measurementId"
+  apiKey: "AIzaSyAKeDrHTGkMrXQWlUe6qSK4AO-0khcMgAE",
+  authDomain: "gdsc-website-7e5d5.firebaseapp.com",
+  projectId: "gdsc-website-7e5d5",
+  storageBucket: "gdsc-website-7e5d5.appspot.com",
+  messagingSenderId: "596510903135",
+  appId: "1:596510903135:web:c0173722bbad597fd984ea",
+  measurementId: "G-M0RF38W4ZY"
 };
 
 
