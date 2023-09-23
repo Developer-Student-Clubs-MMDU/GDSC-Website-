@@ -1,0 +1,143 @@
+.H-Sc-C {
+  margin: auto;
+  padding: 4%;
+  height: -moz-fit-content;
+  height: fit-content;
+}
+.H-Sc-C h3 {
+  letter-spacing: 0.4rem;
+  margin-bottom: 0.7%;
+  margin-bottom: 2%;
+}
+.H-Sc-C h1 {
+  font-size: 3rem;
+  letter-spacing: 0.6rem;
+  color: #404040;
+  margin-top: 0%;
+}
+@media (max-width: 450px) {
+  .H-Sc-C h1 {
+    font-size: 2rem;
+    letter-spacing: 0.3rem;
+  }
+}
+@media (max-width: 300px) {
+  .H-Sc-C h1 {
+    font-size: 1.5rem;
+  }
+}
+.H-Sc-C p {
+  font-size: 1.4rem;
+  color: #5c5757;
+}
+.H-Sc-C table {
+  margin: auto;
+  width: 75vw;
+  border-collapse: collapse;
+}
+.H-Sc-C table tr {
+  padding: 5%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 15px;
+}
+.H-Sc-C table tr td {
+  border-right: 2px solid #404040;
+}
+@media (max-width: 1200px) {
+  .H-Sc-C table tr td {
+    border-right: none;
+  }
+}
+.H-Sc-C table tr td:last-child {
+  border-right: none;
+}
+.H-Sc-C table tr td li {
+  line-height: 5rem;
+  list-style: none;
+}
+@media (max-width: 720px) {
+  .H-Sc-C table tr td li {
+    line-height: 3.5rem;
+  }
+}
+@media (max-width: 350px) {
+  .H-Sc-C table tr td li {
+    line-height: 3rem;
+  }
+}
+.H-Sc-C table tr td li:nth-child(1) {
+  font-size: 5rem;
+  color: white;
+  font-weight: 700;
+}
+@media (max-width: 720px) {
+  .H-Sc-C table tr td li:nth-child(1) {
+    font-size: 4rem;
+  }
+}
+@media (max-width: 420px) {
+  .H-Sc-C table tr td li:nth-child(1) {
+    font-size: 3rem;
+  }
+}
+.H-Sc-C table tr td li:nth-child(2) {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #404040;
+}
+@media (max-width: 720px) {
+  .H-Sc-C table tr td li:nth-child(2) {
+    font-size: 1rem;
+  }
+}
+
+.insight {
+  background-color: #d2d2d2;
+}
+
+#H-Sc {
+  padding: 0%;
+  padding-top: 3%;
+  padding-bottom: 3%;
+}
+#H-Sc table {
+  width: 100vw;
+}
+@media (max-width: 1024px) {
+  #H-Sc table {
+    margin: 0% !important;
+  }
+}
+#H-Sc table tr {
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  row-gap: 20px;
+  justify-content: center;
+  margin: auto;
+  width: 100%;
+  padding: 2% 0%;
+}
+#H-Sc table tr td {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0% 10%;
+}
+#H-Sc table tr td li {
+  width: -moz-fit-content;
+  width: fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  line-height: 2rem;
+}
+#H-Sc table tr td li:first-child {
+  color: #d2d2d2;
+  font-size: 2rem;
+  font-weight: 700;
+  padding-bottom: 8%;
+}
+#H-Sc table tr td li:last-child {
+  font-size: 1.1rem;
+  line-height: 1.3rem;
+  font-weight: 400;
+}/*# sourceMappingURL=Stats.css.map */

@@ -1,0 +1,199 @@
+
+@import '../../Variable'
+
+.G-F
+    height: 40%
+    background-color: #404040
+    color: $white
+    display: grid
+    grid-template-columns: 1fr 1fr 1fr
+    font-size: 0.9rem
+    // column-gap: 43%
+    padding: 6% 4% 2% 4%
+    position: relative
+    font-size: 1.1rem
+    justify-content: center
+    @media(max-width: 1028px)
+        font-size: 0.9rem !important
+        padding: 7%
+        // column-gap: 20%
+        height: 30vh
+    // @media(max-width: 600px)
+    //         column-gap:10%
+    @media(max-width: 850px)
+        height: fit-content
+        column-gap: 5%
+        padding: 5% 9% 5% 9%
+    @media(max-width: 700px)
+        column-gap: 0%
+        grid-template-columns: 1fr 
+    @media(max-height: 650px)
+        height: fit-content
+    .G-F-1
+        margin-left: 0%
+        // width: 100%
+        margin-right: auto
+        margin-bottom: 2rem
+        grid-column: 1/4
+        grid-row: 1
+        // justify-self: center
+        align-self: start
+        @media(max-width: 850px)
+            margin: 0%
+            padding-bottom: 7%
+            align-self: center
+        img
+            width: 25vw
+            @media(max-width: 1028px)
+                width: 35vw
+            @media(max-width: 850px)
+                width: 50vw
+
+    .G-F-2
+        width: 34vw
+        font-style: normal
+        font-weight: 300
+        // font-family: $Nunito
+        font-size: 1.2rem !important
+        margin: 0%
+        display: inline
+        text-align: left
+        font-size: 0.9rem
+        margin-bottom: 3%
+        grid-column: 1
+        grid-row: 2
+        @media(max-width: 1028px)
+            font-size: 0.9rem !important
+        @media(max-width: 850px)
+            display: none
+
+    .G-F-3
+        padding-top: 2%
+        grid-column: 1
+        grid-row: 3
+        @media(max-width: 850px)
+            padding-top: 0%
+            grid-column: 1
+            grid-row: 2/4
+            font-weight: 900 !important
+            font-size: 1.5rem
+        p
+            text-align: left
+            font-weight: 100
+            margin-bottom: 4%
+            margin-top: 0%
+            @media(max-width: 850px)
+                font-size: 0.9rem
+                margin-bottom: 2%
+            @media(max-width: 700px)
+                display: none
+        ol
+            list-style-type: none
+            padding: 0%
+
+            @media(max-width: 850px)
+                height: 100%
+                gap: 5%
+                display: flex
+                flex-direction: column
+                font-size: 1.1rem
+                margin-bottom: 0%
+                margin-top: auto
+            @media(max-width: 700px)
+                text-align: center
+            li
+                display: flex
+                align-items: flex-start
+                @media(max-width: 700px)
+                    justify-content: center
+                p
+                    height: fit-content
+                    width: 300px
+                    border-radius: nullpx
+                    display: inline
+                    margin: 0%
+                    text-align: left
+                    padding-left: 2%
+                    padding-bottom: 3%
+                    // font-family: $Roboto
+                    line-height: 1.4rem
+                    letter-spacing: 0.05rem
+                    font-weight: 100 !important
+                    @media(max-width: 850px)
+                        width: 400px
+                        line-height: 1.4rem
+                        margin-bottom: 0%
+                        padding: 0%
+                    @media(max-width: 700px)
+                        width:50vw
+                            text-align: center
+
+                span
+                    color: #27AAE1
+                    text-align: left
+
+    .G-F-4
+        display: inline
+        padding-left: 8%
+        padding-top: 0%
+        height: fit-content
+        justify-self: end
+        width: 100%
+        align-self: end
+        grid-column: 3/4
+        @media(max-width: 850px)
+            grid-column: 3/4
+            grid-row: 2/4
+            height: 100% // dont u dare delete this line !! it makes grid row work in line 146 
+        @media(max-width: 700px)
+            grid-column: 1/3
+            grid-row: 4
+
+        p
+            text-align: left
+            margin-top: 0%
+            @media(max-width: 850px)
+                display: none
+        ol
+            list-style-type: none
+            width: 100%
+            display: flex
+            justify-content: space-between
+            margin: 0%
+            margin-inline-start: 0% !important
+            padding: 0%
+            @media(max-width: 850px)
+                margin-right: 0% !important
+                margin-left: auto !important
+                // width: 50% !important
+                row-gap: 10%
+                display: grid
+                grid-template-columns: 1fr 1fr
+                place-items: center
+                height: 100%
+                width: 100%
+            @media(max-width: 700px)
+                    display: flex
+                    align-items: flex-end
+                    width: 90% !important
+                    padding: 2%
+            li
+                svg
+                    color: $white
+                    font-size: 1.8rem
+                    @media(max-width: 1028px)
+                        font-size: 1.5rem
+                    @media(max-width: 850px)
+                        font-size: 1.2rem
+
+    .G-F-5
+        width: 25vh
+        text-align: left
+        font-weight: 100 !important
+        ul
+            padding: 0%
+            a
+                color: $white
+                text-decoration: none
+        @media(max-width: 850px)
+            display: none

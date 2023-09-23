@@ -1,0 +1,52 @@
+.H-SC-Container {
+  width: 100vw !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  overflow: hidden;
+  margin: auto !important;
+}
+.H-SC-Container .H-SC-Header {
+  text-align: center;
+  width: 100%;
+}
+@media (max-width: 800px) {
+  .H-SC-Container .H-SC-Header {
+    height: -moz-fit-content;
+    height: fit-content;
+  }
+}
+@media (max-width: 500px) {
+  .H-SC-Container .H-SC-Header {
+    height: -moz-fit-content;
+    height: fit-content;
+  }
+}
+.H-SC-Container .H-SC-Header h3 {
+  color: #404040;
+  font-size: 1.5rem;
+  letter-spacing: 0.2rem;
+  padding-top: 7%;
+  margin: 0%;
+  font-weight: 700;
+}
+@media (max-width: 800px) {
+  .H-SC-Container .H-SC-Header h3 {
+    font-size: 0.8rem;
+  }
+}
+.H-SC-Container .H-SC-Header h1 {
+  font-size: 3rem;
+  margin: 3%;
+}
+@media (max-width: 800px) {
+  .H-SC-Container .H-SC-Header h1 {
+    font-size: 1.4rem;
+  }
+}
+.H-SC-Container .H-SC-Body {
+  width: 70%;
+  position: relative;
+  top: -50%;
+}/*# sourceMappingURL=Media.css.map */

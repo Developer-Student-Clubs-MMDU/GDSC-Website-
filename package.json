@@ -1,0 +1,71 @@
+{
+  "name": "gdscsite",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@emotion/react": "^11.10.6",
+    "@mui/material": "^5.12.1",
+    "@reduxjs/toolkit": "^1.9.3",
+    "@splidejs/react-splide": "^0.7.12",
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^14.4.3",
+    "animate.css": "^4.1.1",
+    "bootstrap": "^5.2.3",
+    "cors": "^2.8.5",
+    "embla-carousel-react": "^7.0.9",
+    "firebase": "^9.21.0",
+    "localforage": "^1.10.0",
+    "match-sorter": "^6.3.1",
+    "no-cors-proxy": "^1.0.5",
+    "react": "^18.2.0",
+    "react-animated-css-onscroll": "^1.2.1",
+    "react-bootstrap": "^2.7.2",
+    "react-countup": "^6.4.2",
+    "react-dom": "^18.2.0",
+    "react-embed": "^3.6.0",
+    "react-icons": "^4.7.1",
+    "react-modal": "^3.16.1",
+    "react-redux": "^8.0.5",
+    "react-router-dom": "^6.8.1",
+    "react-router-hash-link": "^2.4.3",
+    "react-scripts": "^5.0.1",
+    "react-slick": "^0.29.0",
+    "react-social-media-embed": "^2.3.5",
+    "react-spring": "^9.7.2",
+    "semantic-ui-css": "^2.5.0",
+    "semantic-ui-react": "^2.1.4",
+    "slick-carousel": "^1.8.1",
+    "sort-by": "^1.2.0",
+    "swiper": "^9.1.0",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@wixc3/react-board": "^2.2.0",
+    "sass": "^1.58.3"
+  }
+}

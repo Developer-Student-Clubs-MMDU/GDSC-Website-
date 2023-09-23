@@ -1,0 +1,83 @@
+.ED-CONTAINER .ED-1 {
+  background-image: url(../../Assets/images/blue_banner.png);
+  height: 30vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.ED-CONTAINER .ED-1 h1 {
+  color: white;
+  font-size: 8vh;
+}
+.ED-CONTAINER .ED-2 {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 2%;
+}
+.ED-CONTAINER .ED-2 p {
+  margin: 0%;
+}
+.ED-CONTAINER .ED-2 svg {
+  padding: 6px;
+  padding-top: 7px;
+}
+.ED-CONTAINER .ED-3 {
+  width: 50vw;
+  margin: auto;
+}
+@media (max-width: 1028px) {
+  .ED-CONTAINER .ED-3 {
+    width: 80vw;
+  }
+}
+.ED-CONTAINER .ED-3 h1 {
+  font-size: 4rem;
+}
+.ED-CONTAINER .ED-3 p {
+  font-size: 1.3rem;
+  font-weight: 100;
+  padding: 4%;
+}
+@media (max-width: 1028px) {
+  .ED-CONTAINER .ED-3 p {
+    padding: 1%;
+  }
+}
+.ED-CONTAINER h2 {
+  margin: 4%;
+  font-size: 3rem;
+  font-size: 2.5rem;
+  font-size: 2rem;
+}
+.ED-CONTAINER .ED-4 {
+  text-align: center;
+  margin: auto;
+}
+.ED-CONTAINER .ED-4 .ED-4-1 {
+  border: 6px dashed #BBDEFB;
+  border-radius: 40px;
+  width: -moz-fit-content;
+  width: fit-content;
+  padding: 3%;
+  margin: auto;
+}
+.ED-CONTAINER .ED-4 .ED-4-1 .ED-4-1-1 {
+  color: #404040;
+}
+.ED-CONTAINER .ED-4 .ED-4-1 .ED-4-1-1 img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.ED-CONTAINER .ED-4 .ED-4-1 .ED-4-1-1 h3 {
+  font-weight: 700;
+  margin: 1.5%;
+}
+.ED-CONTAINER .ED-4 .ED-4-1 .ED-4-1-1 p {
+  margin: 1.5%;
+}/*# sourceMappingURL=eventDetails.css.map */

@@ -1,0 +1,96 @@
+.E-SC-1-1
+  width: 100%
+  padding-top: 100% // Maintain a square aspect ratio
+  position: relative
+  border-radius: 16px
+
+  img
+    position: absolute
+    top: 0
+    left: 0
+    width: 100%
+    height: 100%
+    object-fit: cover // Cover the entire container
+    border-radius: 10px 10px 0 0
+    
+.E-SC-container
+    padding: 3%
+    display: grid
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr))
+    grid-gap: 10px
+    margin: auto
+    align-content: center
+    justify-items: center
+    justify-content: center
+    grid-auto-flow: row
+    @media(max-width: 700px)
+        grid-template-columns: 1fr 
+    .E-SC-1
+        width: 100%
+        height: fit-content
+        text-align: center
+        box-shadow: 2px 2px 20px 0px rgba(5, 5, 5, 0.089)
+        border-radius: 20px
+        // @media(max-width: 860px)
+        //     width: 350px
+        //     font-size: 1.6rem
+        // @media(max-width: 780px)
+        //     width: 300px
+        @media(max-width: 850px)
+            width: 350px
+        .E-SC-1-1
+            width: 100%
+            height: fit-content
+            height: -moz-fit-content
+            border-radius: 16px
+            img
+                width: 100%
+                height: 100%
+                object-fit: contain
+                border-radius: 10px 10px 0px 0px
+                // margin: 6%
+        .E-SC-1-2
+            font-family: inherit
+            display: flex
+            flex-direction: column
+            justify-content: center
+            align-items: center
+            h2
+                font-size: 1.4rem
+            table
+                    margin: auto !important
+                    width: 80%
+                    text-align: left
+                    td
+                        @media(max-width: 850px)
+                            font-size: 0.8rem 
+                    #head
+                        font-size: 1.4rem
+                        font-weight: 500
+                        padding-top: 6%
+                        padding-bottom: 6%
+                        @media(max-width: 850px)
+                            font-size: 1.2rem
+                    #subhead
+                        color: #676c72de
+                        padding-bottom: 3%
+                        font-size: 1.1rem
+                        font-weight: 400
+                        @media(max-width: 850px)
+                            font-size: 1rem
+            button
+                width: 85%
+                padding: 2%
+                margin: 6%
+                background: #4285F4
+                color: white
+                font-family: inherit
+                font-size: 1.4rem
+                border: none
+                border-radius: 12px
+                
+                a
+                    color: inherit
+                    text-decoration: none
+                    @media(max-width: 850px)
+                        font-size: 1.2rem !important

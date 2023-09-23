@@ -1,0 +1,35 @@
+.H-Sc-Container {
+  padding-top: 3rem;
+  overflow: hidden;
+}
+.H-Sc-Container h1 {
+  font-weight: 700;
+  font-size: 3em;
+  color: #404040;
+  letter-spacing: 0.6rem;
+}
+@media (max-width: 768px) {
+  .H-Sc-Container h1 {
+    font-size: 2.5em;
+  }
+}
+@media (max-width: 450px) {
+  .H-Sc-Container h1 {
+    font-size: 2rem;
+    letter-spacing: 0.3rem;
+  }
+}
+@media (max-width: 300px) {
+  .H-Sc-Container h1 {
+    font-size: 1.5rem;
+  }
+}
+.H-Sc-Container p {
+  font-size: 2rem;
+  font-weight: 600;
+}
+@media (max-width: 768px) {
+  .H-Sc-Container p {
+    font-size: 1em;
+  }
+}/*# sourceMappingURL=Collab.css.map */

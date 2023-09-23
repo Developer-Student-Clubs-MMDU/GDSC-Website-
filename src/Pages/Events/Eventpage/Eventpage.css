@@ -1,0 +1,83 @@
+.E-container {
+  color: #404040;
+}
+.E-container .E-1 {
+  height: 30vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.E-container .E-1 h1 {
+  color: white;
+  font-size: 8vh;
+}
+.E-container .yellow {
+  background-image: url(../../../Assets/images/yellow_banner.png);
+}
+.E-container .green {
+  background-image: url(../../../Assets/images/green_banner.png);
+}
+.E-container .E-2 {
+  list-style-type: none;
+  display: flex;
+  padding: 2.5%;
+}
+.E-container .E-2 .E-2-1 {
+  display: flex;
+  gap: 30px;
+}
+.E-container .E-2 .E-2-1 li {
+  font-size: 1.07rem;
+}
+.E-container .E-2 .E-2-1 li a {
+  padding-bottom: 16px;
+  color: inherit;
+  text-decoration: none;
+}
+.E-container .E-2 .E-2-1 li a:hover {
+  color: #4285F4;
+}
+.E-container .E-2 .E-2-1 li a:active {
+  border-bottom: 1px solid #4285F4;
+  border-bottom-width: 100%;
+}
+.E-container .E-2 .E-2-2 {
+  margin-left: auto;
+  margin-right: 0%;
+  display: flex;
+  line-height: 28px;
+  align-items: center;
+  position: relative;
+  right: 4%;
+  text-align: left;
+}
+.E-container .E-2 .E-2-2 li input {
+  width: 100%;
+  height: 40px;
+  line-height: 28px;
+  padding: 0 1rem;
+  padding-left: 1rem;
+  border: 2px solid transparent;
+  border-radius: 20px;
+  outline: none;
+  background-color: #fff;
+  color: #0d0c22;
+  transition: 0.3s ease;
+  box-shadow: 2px 2px 18px 0px rgba(5, 5, 5, 0.062);
+}
+.E-container .E-2 .E-2-2 li::-moz-placeholder {
+  color: #9e9ea7;
+}
+.E-container .E-2 .E-2-2 li::placeholder {
+  color: #9e9ea7;
+}
+.E-container .E-2 .E-2-2 li::-webkit-input-placeholder {
+  font: inherit;
+  font-size: 1rem;
+  font-weight: 100;
+}
+.E-container .E-2 .E-2-2 li svg {
+  fill: #676C72;
+}/*# sourceMappingURL=Eventpage.css.map */

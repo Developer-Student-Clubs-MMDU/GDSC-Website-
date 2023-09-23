@@ -1,0 +1,11 @@
+.parent{
+    padding-top:89px;
+    /* padding: 0% 0% 0% 0% !important; */
+    scroll-behavior: smooth;
+    width: 100%;
+}
+@media(max-width: 1400px){
+    .parent{
+        padding-top:92px; 
+    }
+}

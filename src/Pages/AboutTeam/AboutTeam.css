@@ -1,0 +1,97 @@
+.AT-Container .AT-1 {
+  height: 30vh;
+  background-image: url(../../Assets/images/yellow_banner.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.AT-Container .AT-1 h1 {
+  color: white;
+  font-size: 8vh;
+}
+.AT-Container .AT-2 {
+  display: flex;
+  height: -moz-fit-content;
+  height: fit-content;
+  padding: 5%;
+  -moz-column-gap: 5%;
+       column-gap: 5%;
+  align-items: center;
+  justify-content: center;
+}
+.AT-Container .AT-2 .AT-2-1 p {
+  text-align: left;
+  font-size: 1.08rem;
+  line-height: 2rem;
+  font-weight: 400;
+}
+@media (max-width: 1028px) {
+  .AT-Container .AT-2 .AT-2-1 p {
+    font-size: 1rem;
+    line-height: 1.3rem;
+  }
+}
+@media (max-width: 800px) {
+  .AT-Container .AT-2 .AT-2-1 p {
+    text-align: center;
+    font-size: 1.2rem;
+  }
+}
+@media (max-width: 500px) {
+  .AT-Container .AT-2 .AT-2-1 p {
+    font-size: 0.9rem;
+  }
+}
+@media (max-width: 800px) {
+  .AT-Container .AT-2 .AT-2-2 {
+    display: none;
+  }
+}
+.AT-Container .AT-2 .AT-2-2 img {
+  max-width: 453px;
+  max-height: 470px;
+  border-radius: 24px;
+}
+@media (max-width: 1028px) {
+  .AT-Container .AT-2 .AT-2-2 img {
+    width: 300px;
+  }
+}
+@media (max-width: 800px) {
+  .AT-Container .AT-2 .AT-2-2 img {
+    display: none;
+  }
+}
+.AT-Container .AT-3 {
+  width: 394px;
+  height: 487px;
+  border: 1px solid black;
+}
+.AT-Container .AT-3 .AT-3-1 {
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  background-image: url(../../Assets/images/dp.jpg);
+  background-size: contain;
+  background-position-y: 10%;
+  position: relative;
+  top: 19%;
+  left: 24%;
+  border: 5px solid #FFEBEE;
+}
+.AT-Container .AT-3 .AT-3-2 {
+  position: relative;
+  top: 20%;
+}
+.AT-Container .AT-4 .AT-4-1 h1 {
+  color: #4285F4;
+  font-size: 2.9rem;
+}
+.AT-Container .red {
+  background: linear-gradient(rgb(239, 83, 80) 40%, rgb(255, 255, 255) 30%);
+}
+.AT-Container .green {
+  background: linear-gradient(#66BB6A 40%, rgb(255, 255, 255) 30%);
+}/*# sourceMappingURL=AboutTeam.css.map */
